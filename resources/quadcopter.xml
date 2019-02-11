@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/11/19||16:44:19" using="Simscape Multibody Link Version 6.0" from="SolidWorks 25.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Quadcopter" uid="Quadcopter" version="152">
+<AssemblyFile name="Quadcopter.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="FlightBody-1" uid="FlightBody-1" grounded="true" entityUid="FlightBody*:*默认">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.0023096744734716068 -0.003464511710206238 0.17190562748477867</Translation>
+</Transform>
+</Instance>
+<Instance name="FlightBlade-2" uid="FlightBlade-2" entityUid="FlightBlade*:*Default">
+<Transform>
+<Rotation>0.66120087795189675 0 0.75020890356995962 0.75020890356995962 0 -0.66120087795189675 0 1 0</Rotation>
+<Translation>-0.087162488215860534 0.081388302032177215 0.20540562748477867</Translation>
+</Transform>
+</Instance>
+<Instance name="FlightBlade-3" uid="FlightBlade-3" entityUid="FlightBlade*:*Default">
+<Transform>
+<Rotation>0.84382937270581493 0 -0.53661158183448776 -0.53661158183448776 0 -0.84382937270581493 0 1 0</Rotation>
+<Translation>0.08254313926891671 -0.088317325452590301 0.20540562748477867</Translation>
+</Transform>
+</Instance>
+<Instance name="FlightBlade-4" uid="FlightBlade-4" entityUid="FlightBlade*:*Default">
+<Transform>
+<Rotation>-0.11930300660732555 0 0.99285789144995595 -0.99285789144995595 0 -0.11930300660732555 0 -1 0</Rotation>
+<Translation>0.082543139268912158 0.081388302032182336 0.20540562748477867</Translation>
+</Transform>
+</Instance>
+<Instance name="FlightBlade-5" uid="FlightBlade-5" entityUid="FlightBlade*:*Default">
+<Transform>
+<Rotation>0.89578256662822531 0 -0.44449251211347651 0.44449251211347651 0 0.89578256662822531 0 -1 0</Rotation>
+<Translation>-0.087162488215854775 -0.088317325452595422 0.20540562748477867</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="同心2">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>-0.084852813742388886 0.084852813742383459 0.041500000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBlade-2</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000573 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>-0.084852813742388913 0.076852813742383452 0.030499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBlade-2</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心3">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>0.084852813742388289 -0.084852813742384056 0.041500000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBlade-3</Uid>
+</InstancePath>
+<Position>0 0.0020000000000000573 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>0.084852813742388372 -0.076852813742384063 0.030499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBlade-3</Uid>
+</InstancePath>
+<Position>0 -0.0030000000000000027 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心4">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>0.084852813742383765 0.08485281374238858 0.041500000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBlade-4</Uid>
+</InstancePath>
+<Position>0 -0.0018082464074058169 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>0.076852813742383758 0.084852813742388636 0.030499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBlade-4</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="同心5">
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>-0.084852813742383168 -0.084852813742389177 0.041500000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="circle">
+<InstancePath>
+<Uid>FlightBlade-5</Uid>
+</InstancePath>
+<Position>0 -0.0018082464074058169 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="重合5">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBody-1</Uid>
+</InstancePath>
+<Position>-0.076852813742383175 -0.084852813742389177 0.030499999999999999</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>FlightBlade-5</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="FlightBlade" uid="FlightBlade*:*Default" version="149">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FlightBlade.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.00090597182933727506</Mass>
+<CenterOfMass>0 -1.4356099667376548e-05 0</CenterOfMass>
+<Inertia>5.7636273403912479e-07 5.8473596214685116e-07 1.1655491813904288e-08 0 4.2633362227273598e-10 0</Inertia>
+</MassProperties>
+<GeometryFile name="FlightBlade_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.1764705882352941" g="1" b="0.058823529411764705" a="1"/>
+<Diffuse r="0.12352941176470586" g="0.69999999999999996" b="0.041176470588235294" a="1"/>
+<Specular r="0.0088235294117647058" g="0.050000000000000003" b="0.0029411764705882353" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="FlightBody" uid="FlightBody*:*默认" version="180">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="FlightBody.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.14203936921931784</Mass>
+<CenterOfMass>-3.4681614532810011e-05 4.4429718662320034e-05 0.020045067453589145</CenterOfMass>
+<Inertia>0.00035284561981884465 0.00034010936290991583 0.00064427782032549358 1.4895487404697417e-08 -2.7935967881378451e-08 3.0760871994575856e-09</Inertia>
+</MassProperties>
+<GeometryFile name="FlightBody_默认_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
