@@ -6,6 +6,26 @@
 
 ---
 
+### Dependencies
+- **Enviroment**: Matlab R2018b or later with Java-1.8.0+
+- **Usage**: When Run the Models, make sure to Keep in the directory named `models`. Consequently, the cache file of the simulink model with the suffix of `*.slxc` will only exist in the directory named `models` and find the display models of STEP correctly.
+
+|Toolbox|Version|Level|
+|---|---|---|
+| MATLAB | 9.5 | **Required** |
+| Simulink | 9.2 | **Requried** |
+|Automated Driving System Toolbox| 1.3 | Optional |
+|Control System Toolbox| 10.5 | **Required** |
+|Embedded Coder| 7.1 | Optional |
+|Robotics System Toolbox | 2.1 | Optional |
+|Robust Control Toolbox| 6.5 | Optional |
+|Sensor Fusion and Tracking Toolbox| 1.0 | Optional |
+|Simscape Multibody| 6.0 | **Required** |
+|Stateflow| 9.2 | Optional |
+|System Identification Toolbox| 9.9 | Optional |
+
+---
+
 ### Basic Tutorials
 In the directory named `models`, you will see the model I built below:
 
