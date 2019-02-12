@@ -1,7 +1,7 @@
 ## Universal Analysis for Quadcopter 
 - Author: Liu-Yinyi ([@Champion-Liu](https://github.com/Champion-Liu))
-- Date: 2019-02-11
-- Version: 0.2.1
+- Date: 2019-02-12
+- Version: 0.3.2 (BSD License)
 - Abstract: Control System Design and Analyze for Quadcopter Based on Matlab.
 
 ---
@@ -11,11 +11,19 @@ In the directory named `models`, you will see the model I built below:
 
 1. `SinglePair_1DoF.slx` : Research **a pair of arm** that 1 Degree of Freedom.
 2. `Euler_3DoF.slx` : Research **gimbal** that 3 Degrees of Freedom.
-3. `Height_1DoF.slx` : Research **altitude** that 1 Degree of Freedom.
-4. `Position_2DoF.slx` : Research **position 2D** that 2 Degrees of Freedom.
-5. `Comphrensive_6DoF.slx` : Research **all above** that 6 Degrees of Freedom.
+3. `Height_4DoF.slx` : Research **altitude** that 4 Degrees of Freedom.
+4. `Position_5DoF.slx` : Research **position 2D** that 5 Degrees of Freedom.
+5. `Comprehensive_6DoF.slx` : Research **all above** that 6 Degrees of Freedom.
 
-![ModelPreview_3DoF](https://github.com/Champion-Liu/QuadcopterAnalysis/blob/master/media/ModelPreview_3DoF.png)
+![ModelPreview_4DoF](https://github.com/Champion-Liu/QuadcopterAnalysis/blob/master/media/ModelPreview_4DoF.png)
+
+---
+
+### Senior Research
+I will push the models and my research details after I finish my paper. So now this part remains a secret at present. To make a suspense, I can hint that it's related to the `Vortex`.
+
+1. `******************************`;
+2. `******************************`.
 
 ---
 
@@ -23,9 +31,11 @@ In the directory named `models`, you will see the model I built below:
 To use this technique in the real engineerings, I have made some useful tools:
 
 1. Real-Time Simulation Connected with **Embedded MCU**;
-2. Real-Time Simulation Connected with **ROS**.
+2. Real-Time Simulation Connected with **ROS**;
+3. Universal Analysis Combined with **COMSOL Multiphysics**;
+4. Light Simulator Based on **Pandas3D**.
 
-![ModelExplorer](https://github.com/Champion-Liu/QuadcopterAnalysis/blob/master/media/ModelExplorer.png)
+![ModelExplorer_4DoF](https://github.com/Champion-Liu/QuadcopterAnalysis/blob/master/media/ModelExplorer_4DoF.png)
 
 ---
 
